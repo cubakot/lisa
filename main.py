@@ -7,7 +7,7 @@ import random
 class AlisaApp(App):
     def zapusk(self, instance):
         self.first_number = random.randint(1, 100)
-        self.second_number = random.randint(1, 70)
+        self.second_number = random.randint(1, 78)
         while self.second_number> self.first_number:
             self.first_number = random.randint(1, 100)
         H = (self.first_number + self.second_number)
